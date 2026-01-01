@@ -1,0 +1,34 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1em;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+div{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 4em;
+}
+
+div>*{
+    margin: 0.5em;
+}
+
+#notas>p{
+    color: red;
+    font-weight: bold;
+}
+
+#crearNota{
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    width: 80%;
+    height: 80%;
+}
